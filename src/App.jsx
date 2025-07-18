@@ -1,7 +1,5 @@
 import './index.css';
 import './style.css';
-import { Trash } from 'lucide-react';
-import TEST from './assets/react.svg';
 
 import Navbar from './components/Navbar.jsx';
 import Experience from './pages/Experience.jsx';
@@ -12,11 +10,11 @@ import { Route, Routes} from "react-router-dom";
 import About from './pages/About.jsx';
 import Skills from './pages/Skills.jsx';
 import Contact from './pages/Contact.jsx';
-import Modal from './components/Modal.jsx';
+
 
 
 function App() {
-  const [open, setOpen] = useState(false);
+  
   return (
     <div>
       {/*Nav Bar */}
@@ -34,22 +32,6 @@ function App() {
         </Routes>
       </div>
       </>
-      <button className='btn btn-danger' onClick={() => setOpen(true)}>
-        <img src={TEST} alt='React Image' className='w-16 h-16' />
-      </button>
-        <Modal open={open} onClose={() => setOpen(false)}>
-          <div className='text-center w-56'>
-          <Trash size={56} className="mx-auto text-red-500" />
-          <div className='mx-auto my-4 w-48'>
-            <h3 className='text-lg front-black text-red-500'>
-              Confirm Delete
-            </h3>
-            <p className='text-sm text-green-400'>
-              Are you sure you want to do that?
-            </p>
-            </div>
-          </div>
-        </Modal>
 
       {/*Little Introduction, Have an image to pull attraction. Keep it simple. Express 
       full stack developer and software developer */}
