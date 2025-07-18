@@ -3,14 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://kaliuser876/github.io/Jon-portfolio/",
+  "homepage": "https://kaliuser876/github.io/jon-portfolio/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d -dist",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d -dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",

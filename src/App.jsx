@@ -1,5 +1,5 @@
 import './index.css';
-import './styles.css';
+import './style.css';
 import { Trash } from 'lucide-react';
 import TEST from './assets/react.svg';
 
