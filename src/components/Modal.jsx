@@ -14,7 +14,7 @@ export default function Modal({ open, onClose, children}){
                 className={`
                 bg-black rounded-x1 shadow p-12 transition-all 
                 ${open ? "scale-100 opacity-100" : "scale-125 opacity-0"}`}>
-                <button onClick={onClose}>
+                <button className="absolute top-3 right-3" onClick={onClose}>
                     <X />
                 </button>
                 
