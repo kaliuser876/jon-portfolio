@@ -8,19 +8,19 @@ export default function Skills(){
     return (
         <div className={isDarkMode ? 'dark-bg' : 'light-bg'}>
             <div className="text-center px-4">
-            <h1 className="text-4xl font-bold mb-6">
+            <h1 className="tabs">
                 Skills
             </h1>
-
             <div className="mb-10">
                 <h2 className="text-2xl font-semibold mb-4">
                     Programming Languages
                 </h2>
+            <h3>* Means primary focus</h3>
                 <div className="flex flex-wrap justify-center gap-6">
                     <SkillIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" display_text="Java" />
                     <SkillIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" display_text="JavaScript" />
-                    <SkillIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" display_text="Python" />
-                    <SkillIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" display_text="C++" />
+                    <SkillIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" display_text="Python *" />
+                    <SkillIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" display_text="C++ *" />
                     <SkillIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" display_text="C#" />
                     <SkillIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" display_text="C" />
                 </div>

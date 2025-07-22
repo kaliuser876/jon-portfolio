@@ -17,7 +17,7 @@ export default function Projects(){
     
     return (
     <div className={isDarkMode ? 'dark-bg' : 'light-bg'}>
-        <h1>Projects</h1>
+        <h1 className='tabs'>Projects</h1>
         <p>
           These are some of my projects. Feel free to click on them to learn more.
         </p>

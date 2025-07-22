@@ -12,18 +12,18 @@ export default function Contact(){
     };
     return( 
         <div className={isDarkMode ? 'dark-bg' : 'light-bg'}>
-            <h1>Contact</h1>
+            <h1 className='tabs'>Contact</h1>
             <div className='flex justify-center gap-4'>
                 <a href={resume} download="Jon's Resume">
-                <button >
-                    <img src={resumeIcon} alt='resume icon' className='w-8 h-8' />
+                <button className='icon-button' >
+                    <img src={resumeIcon} alt='resume icon' className='w-16 h-16 dark:invert' />
                 </button>
                 </a>
-                <button onClick={() => openInNewTab('https://github.com/kaliuser876')}>
-                    <img src={githubIconImage} alt='GitHub icon' className='w-8 h-8 scale-75' />
+                <button className='icon-button' onClick={() => openInNewTab('https://github.com/kaliuser876')}>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt='GitHub icon' className='w-16 h-16' />
                 </button>
-                <button onClick={() => openInNewTab('https://www.linkedin.com/in/jonathan-richardson-621281269/')}>
-                    <img src={linkedInIconImage} alt='LinkedIn icon' className='w-8 h-8' />
+                <button className='icon-button' onClick={() => openInNewTab('https://www.linkedin.com/in/jonathan-richardson-621281269/')}>
+                    <img src={linkedInIconImage} alt='LinkedIn icon' className='w-16 h-16' />
                 </button>
             </div>
         </div>

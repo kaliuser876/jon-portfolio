@@ -1,13 +1,23 @@
 @import 'tailwindcss';
 
 .dark-bg {
-  @apply bg-gray-900 text-white;
+  @apply bg-gray-700 text-white;
 }
 
 .light-bg{
   @apply bg-white text-black;
 }
 
+
+.icon-button {
+  @apply bg-transparent border-none outline-none p-1;
+}
+
+.tabs {
+  font-size: 3rem;   
+  font-weight: 700;     
+  margin-bottom: 1.5rem; 
+}
 
 /* Global reset and box sizing */
 * {
