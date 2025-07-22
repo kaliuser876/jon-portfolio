@@ -2,14 +2,16 @@ import githubIconImage from '../assets/github-mark.svg';
 import linkedInIconImage from '../assets/linkedin.svg';
 import resumeIcon from '../assets/resume.svg';
 import resume from '../assets/jonsResume.pdf';
+import { useTheme } from '../components/ThemeContext';
 
 
 export default function Contact(){
+    const {isDarkMode} = useTheme();
     const openInNewTab = (url) => {
       window.open(url, '_blank', 'noopener,noreferrer');
     };
     return( 
-        <div>
+        <div className={isDarkMode ? 'dark-bg' : 'light-bg'}>
             <h1>Contact</h1>
             <div className='flex justify-center gap-4'>
                 <a href={resume} download="Jon's Resume">

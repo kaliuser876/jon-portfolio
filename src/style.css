@@ -1,5 +1,14 @@
 @import 'tailwindcss';
 
+.dark-bg {
+  @apply bg-gray-900 text-white;
+}
+
+.light-bg{
+  @apply bg-white text-black;
+}
+
+
 /* Global reset and box sizing */
 * {
   box-sizing: border-box;
