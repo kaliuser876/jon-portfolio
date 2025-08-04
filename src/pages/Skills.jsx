@@ -19,8 +19,8 @@ export default function Skills(){
                 <div className="flex flex-wrap justify-center gap-6">
                     <SkillIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" display_text="Java" />
                     <SkillIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" display_text="JavaScript" />
-                    <SkillIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" display_text="Python *" />
-                    <SkillIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" display_text="C++ *" />
+                    <SkillIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" display_text="* Python" />
+                    <SkillIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" display_text="* C++" />
                     <SkillIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" display_text="C#" />
                     <SkillIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" display_text="C" />
                 </div>
@@ -28,7 +28,7 @@ export default function Skills(){
 
             <div className="mb-10">
                 <h2 className="text-2xl font-semibold mb-4">
-                    JavaScript Frameworks's
+                    JavaScript Frameworks
                 </h2>
                 <div className="flex flex-wrap justify-center gap-6">
                     <SkillIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" display_text="NodeJS" />

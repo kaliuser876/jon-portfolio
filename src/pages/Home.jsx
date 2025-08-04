@@ -16,7 +16,7 @@ export default function Home(){
                         Hi, my name is Jon Richardson 
                     </p>
                     <p>
-                    I am a software developer and a full-stack enginer
+                    I am a software developer and a full-stack engineer
                     </p>
                 </div>
                 <Projects />
