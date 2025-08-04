@@ -1,7 +1,7 @@
 import githubIconImage from '../assets/github-mark.svg';
 import linkedInIconImage from '../assets/linkedin.svg';
 import resumeIcon from '../assets/resume.svg';
-import resume from '../assets/jonsResume.pdf';
+import resume from '../assets/Jon_Richardson_Resume_August_2025.pdf';
 import { useTheme } from '../components/ThemeContext';
 
 

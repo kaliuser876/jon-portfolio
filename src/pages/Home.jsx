@@ -10,19 +10,11 @@ export default function Home(){
     return (
         <div className={isDarkMode ? 'dark-bg' : 'light-bg'}>
             <div className="text-center font-sans  px-4">
-                <h1 className='tabs'>Home</h1>
-                <div>
-                    <p>
-                        Hi, my name is Jon Richardson 
-                    </p>
-                    <p>
-                    I am a software developer and a full-stack engineer
-                    </p>
-                </div>
+                <About />
+                <Contact />
                 <Projects />
                 <Experience />
                 <Skills />
-                <About />
                 <Contact />
             </div>
         </div>
